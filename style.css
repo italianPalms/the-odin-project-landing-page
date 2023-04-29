@@ -1,6 +1,4 @@
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0;
     padding: 0;
 }
@@ -13,20 +11,56 @@ body {
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #f9faf8;
+    margin-left: 100px;
 }
 
 .header-links {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #e5e7eb;
     display: flex;
     justify-content: flex-end;
     flex: 1;
+    margin-right: 100px;
+}
+
+.content-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.heading-top, .info-top {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.heading-top, .content-img-top {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.heading-top {
+    font-size: 48px;
+    color: #f9faf8;
+    margin-left: 100px;
+}
+
+.info-top {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-left: 100px;
 }
 
 .content-img-top {
-    display: block;
     height: 250px;
+    flex-shrink: 1;
+    margin-right: 100px;
 }
 
 a {
@@ -38,9 +72,14 @@ a {
 button {
     background: #3882F6;
     color: white;
+    width: 120px;
+    height: 40px;
+    margin-left: 100px;
+    border-radius: 25px;
+    margin-bottom: 150px;
 }
 
 .header, .content-top {
-    background: #1F2937;
+    background: #1f2937;
     color: white;
 }
