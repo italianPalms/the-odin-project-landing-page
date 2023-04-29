@@ -1,11 +1,27 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 .header {
     display: flex;
     gap: 10px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
 }
 
 .content-img-top {
