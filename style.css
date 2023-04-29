@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    gap: 10px;
+}
+
+.content-img-top {
+    display: block;
+    height: 250px;
+}
+
+a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background: #3882F6;
+    color: white;
+}
+
+.header, .content-top {
+    background: #1F2937;
+    color: white;
+}
