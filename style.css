@@ -87,3 +87,34 @@ button {
     background: #1f2937;
     color: white;
 }
+
+.heading-middle {
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 100px;
+}
+
+.heading-middle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    text-align: center;
+}
+
+.info-middle {
+    max-width: 400px;
+}
+
+.content-middle-img-left, .content-middle-img-middle, .content-middle-img-right {
+    height: 250px;
+    max-width: 500px;
+}
