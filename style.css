@@ -118,3 +118,26 @@ button {
     height: 250px;
     max-width: 500px;
 }
+
+.quote-container {
+    background: #e5e7eb;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    padding: 100px 100px 20px 100px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 100px;
+    padding-right: 100px;
+}   
