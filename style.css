@@ -49,6 +49,7 @@ body {
     font-size: 48px;
     color: #f9faf8;
     margin-left: 100px;
+    padding-top: 100px;
 }
 
 .info-top {
@@ -58,8 +59,8 @@ body {
 }
 
 .content-img-top {
-    height: 250px;
-    flex-shrink: 1;
+    height: 300px;
+    flex-shrink: 0;
     margin-right: 100px;
 }
 
@@ -77,6 +78,9 @@ button {
     margin-left: 100px;
     border-radius: 25px;
     margin-bottom: 150px;
+    margin-top: 25px;
+    
+
 }
 
 .header, .content-top {
