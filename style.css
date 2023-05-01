@@ -70,13 +70,13 @@ a {
     text-decoration: none;
 }
 
-button {
+#sign-up-button {
     background: #3882F6;
     color: white;
     width: 120px;
     height: 40px;
     margin-left: 100px;
-    border-radius: 25px;
+    border-radius: 15px;
     margin-bottom: 150px;
     margin-top: 25px;
     
@@ -141,3 +141,35 @@ button {
     padding-bottom: 100px;
     padding-right: 100px;
 }   
+
+.action-container {
+background: #3882f6;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-right: 100px;
+margin-left: 100px;
+margin-top: 100px;
+height: 150px;
+border-radius: 10px;
+}
+
+.action-heading {
+    font-size: 36px;
+    color: white;
+}
+
+.action-info {
+    color: white;
+    font-size: 24px;
+}
+
+#action-button {
+    background: #3882F6;
+    color: white;
+    width: 120px;
+    height: 40px;
+    margin-left: 100px;
+    border-radius: 15px;
+    border-color: white;
+}
