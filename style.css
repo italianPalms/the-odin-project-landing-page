@@ -173,3 +173,16 @@ border-radius: 10px;
     border-radius: 15px;
     border-color: white;
 }
+
+.footer {
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 100px;
+    height: 125px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
