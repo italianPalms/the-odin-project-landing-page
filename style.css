@@ -122,6 +122,7 @@ a {
 .quote-container {
     background: #e5e7eb;
     align-items: center;
+    margin-top: 50px;
 }
 
 .quote {
@@ -147,8 +148,8 @@ background: #3882f6;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
-margin-right: 100px;
-margin-left: 100px;
+margin-right: 200px;
+margin-left: 200px;
 margin-top: 100px;
 height: 150px;
 border-radius: 10px;
